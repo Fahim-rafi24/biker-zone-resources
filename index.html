@@ -3,9 +3,321 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>biker-zone-resources</title>
-</head>
-<body>
     
+    
+    <!-- title area -->
+    <title>biker-zone-resources</title>
+    
+    <!-- google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    
+    
+    
+    
+    
+    <!-- tailwind utility library -->
+    
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    
+    <!-- flow-bit -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+    
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    
+    
+    
+    <!-- inner css -->
+    <style>
+        .poppins{
+            font-family: "Poppins", sans-serif;
+        }
+        
+        
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: "Poppins", sans-serif;
+            
+            
+        }
+        .hr-1{
+        border-top: 1px solid #E76F51;
+        }
+        </style>
+    
+    
+    </head>
+
+
+<body>
+
+    <!-- header area -->
+    <header class="bg-[#264653]">
+
+        <!-- nav bar -->
+        <nav class="border-gray-200">
+            <div class="max-w-screen-xl flex flex-wrap items-center md:justify-center mx-auto p-4">
+                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row items-center md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+                        <li>
+                        <a href="#" class="block py-2 px-3 text-white hover:text-purple-600 md:p-0">Home</a>
+                        </li>
+                        <li>
+                        <a href="#" class="block py-2 px-3 text-white hover:text-purple-600 md:p-0">About</a>
+                        </li>
+                        <li>
+                        <a href="#" class="block py-2 px-3 text-white hover:text-purple-600 md:p-0">Services</a>
+                        </li>
+                        <li>
+                        <a href="#" class="block py-2 px-3 text-white hover:text-purple-600 md:p-0">Pricing</a>
+                        </li>
+                        <li>
+                        <button>
+                            <a href="#" class="block bg-[#E76F51] py-2 px-5 rounded-md text-white hover:text-green-400">Login</a>
+                        </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+        
+        <!-- header banner -->
+        <section class="w-[90%] md:w-4/5 xl:flex mx-auto mt-20">
+            <!-- header banner left -->
+            <div class="xl:w-[50%] text-white">
+                <small class="text-base text-gray-400 font-extralight">Computer-controlled digital transistorized with electronic advance</small>
+                <h1 class="text-4xl font-semibold mt-2 md:mt-3 mb-5 md:mb-10">Honda CBR 300R</h1>
+                <p class="text-[#E0E0E0] font-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button class="my-7 md:my-20 py-3 px-5 bg-[#E76F51] rounded-md">Purchase</button>
+            </div>
+            <!-- header banner right -->
+            <div class="w-full pb-7 md:pb-0 xl:w-[50%]">
+                <img class="md:ml-10" src="media/images/honda.svg" alt="">
+                <img class="hidden xl:block relative bottom-[85%] left-[60%]" src="media/images/Group 33064.png" alt="">
+            </div>
+        </section>
+        <!-- header banner end -->
+
+    </header>
+    <!-- header end -->
+
+    <!-- main -->
+    <main>
+
+        <!-- article intro -->
+        <article class="mt-32 text-center">
+            <h2 class="text-2xl md:text-3xl font-bold mb-3">Fetured Bikes In This Year</h2>
+            <p class=" text-[#E76F51]">Best bike collection</p>
+            <div class="w-[20%] md:w-[10%] xl:w-[5%] mx-auto hr-1">
+                <hr>
+            </div>
+        </article>
+        <!-- article intro end -->
+
+        <!-- 3-bike zone -->
+        <div class="flex flex-col md:flex-row w-[60%] md:w-[90%] lg:w-[65%] mx-auto mt-20 justify-between">
+            <img class="mt-5 md:w-[30%]" src="media/images/bike-1.svg" alt="">
+            <img class="mt-5 md:w-[30%]" src="media/images/bike-1.svg" alt="">
+            <img class="mt-5 md:w-[30%]" src="media/images/bike-1.svg" alt="">
+        </div>
+        <!-- 3-bike end -->
+
+        <!-- latest News intro -->
+        <h2 class="text-2xl md:text-3xl font-semibold w-4/5 lg:w-full lg:text-center mx-auto mt-32">latest News</h2>
+        <!-- latest News end -->
+
+        <!-- bike card -->
+        <section class="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3 w-[95%] md:w-[80%] mx-auto justify-items-center">
+            <!-- 1st card -->
+            <div class="grid justify-items-center max-w-sm bg-white border border-gray-200 rounded-lg mt-3 shadow">
+                <a href="#">
+                    <img class="rounded-t-lg mt-5 px-3" src="media/images/latest1.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Ducati XDIAVEL S-73</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                    </p>
+                    <a href="#" class="inline-flex items-center px-5 py-3 text-base font-medium text-center text-white bg-[#E76F51] rounded-lg hover:bg-white hover:text-[#E76F51] border border-[#E76F51]">
+                        Read more</a>
+                </div>
+            </div>
+            <!-- 2th card -->
+            <div class="grid justify-items-center max-w-sm bg-white border border-gray-200 rounded-lg mt-3 shadow">
+                <a href="#">
+                    <img class="rounded-t-lg mt-5 px-3" src="media/images/latest2.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Motorcycles & Scooters</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                    </p>
+                    <a href="#" class="inline-flex items-center px-5 py-3 text-base font-medium text-center text-white bg-[#E76F51] rounded-lg hover:bg-white hover:text-[#E76F51] border border-[#E76F51]">
+                        Read more</a>
+                </div>
+            </div>
+            <!-- 3th card -->
+            <div class="grid justify-items-center max-w-sm bg-white border border-gray-200 rounded-lg mt-3 shadow">
+                <a href="#">
+                    <img class="rounded-t-lg mt-5 px-3" src="media/images/latest3.png" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">2021 Honda CBR500R</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                    </p>
+                    <a href="#" class="inline-flex items-center px-5 py-3 text-base font-medium text-center text-white bg-[#E76F51] rounded-lg hover:bg-white hover:text-[#E76F51] border border-[#E76F51]">
+                        Read more</a>
+                </div>
+            </div>
+        </section>
+        <!-- bike card end -->
+
+        <!-- Clients intro -->
+        <article class="mt-52 text-center">
+            <h2 class="text-3xl md:text-4xl font-semibold mb-3">Happy <span class="text-[#E76F51]">Clients says</span>
+            </h2>
+        </article>
+        <!-- Clients intro end -->
+
+        <!-- Clients card -->
+        <section class="grid md:grid-cols-3 gap-4 w-[95%] md:w-[90%] xl:w-[65%] mx-auto">
+            <!-- Clients card-1 -->
+            <div class="flex flex-col items-center shadow-md rounded-2xl my-3 pt-4 border">
+                <!-- img -->
+                <div class=" w-[50%] flex justify-items-center shadow-lg rounded-full">
+                <img src="media/images/user-1.png" alt="profile-picture" />
+                </div>
+                <!-- write box -->
+                <div class="p-6 text-center">
+                    <p
+                    class="text-sm font-light">
+                    Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.
+                    </p>
+                </div>
+                <!-- ratting -->
+                <div class="rating mb-3">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                </div>
+                <!-- Regina Miles -->
+                <p
+                class="text-[10px] text-[#23A6F0] font-bold mb-1">
+                Regina Miles
+                </p>
+                <!-- Banker -->
+                <p
+                class="text-[10px] font-bold mb-3">
+                Regina Miles
+                </p>
+            </div>
+            <!-- Clients card-2 -->
+            <div class="flex flex-col items-center shadow-md rounded-2xl my-3 pt-4 border">
+                <!-- img -->
+                <div class=" w-[50%] flex justify-items-center shadow-lg rounded-full">
+                <img src="media/images/user-2.png" alt="profile-picture" />
+                </div>
+                <!-- write box -->
+                <div class="p-6 text-center">
+                    <p
+                    class="text-sm font-light">
+                    Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.
+                    </p>
+                </div>
+                <!-- ratting -->
+                <div class="rating mb-3">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                </div>
+                <!-- Regina Miles -->
+                <p
+                class="text-[10px] text-[#23A6F0] font-bold mb-1">
+                Regina Miles
+                </p>
+                <!-- Banker -->
+                <p
+                class="text-[10px] font-bold mb-3">
+                Regina Miles
+                </p>
+            </div>
+            <!-- Clients card-3 -->
+            <div class="flex flex-col items-center shadow-md rounded-2xl my-3 pt-4 border">
+                <!-- img -->
+                <div class=" w-[50%] flex justify-items-center shadow-lg rounded-full">
+                <img src="media/images/user-3.png" alt="profile-picture" />
+                </div>
+                <!-- write box -->
+                <div class="p-6 text-center">
+                    <p
+                    class="text-sm font-light">
+                    Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.
+                    </p>
+                </div>
+                <!-- ratting -->
+                <div class="rating mb-3">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#E77C40]" />
+                </div>
+                <!-- Regina Miles -->
+                <p
+                class="text-[10px] text-[#23A6F0] font-bold mb-1">
+                Regina Miles
+                </p>
+                <!-- Banker -->
+                <p
+                class="text-[10px] font-bold mb-3">
+                Regina Miles
+                </p>
+            </div>
+        </section>
+        <!-- Clients card end -->
+
+        
+
+    </main>
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class=" mt-[40%]"></footer>
+    <!-- footer end -->
+
 </body>
 </html>
