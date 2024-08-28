@@ -11,7 +11,7 @@
     <!-- google font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
     
     
@@ -37,7 +37,9 @@
         .poppins{
             font-family: "Poppins", sans-serif;
         }
-        
+        .manrope{
+            font-family: "Manrope", sans-serif;
+        }
         
         body{
             margin: 0px;
@@ -113,6 +115,8 @@
 
     </header>
     <!-- header end -->
+
+
 
     <!-- main -->
     <main>
@@ -306,17 +310,94 @@
         </section>
         <!-- Clients card end -->
 
-        
+        <!-- Questions intro -->
+        <article class="mt-52 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-3">Frequently Asked <span class="text-[#E76F51]">Questions</span>
+            </h2>
+        </article>
+        <!-- Questions intro end -->
+
+        <!-- Collapse+img div -->
+        <section class="md:flex w-[95%] md:w-[80%] mx-auto mt-20">
+            <!--  -->
+            <div class="w-[100%] md:w-[49%] md:mr-5 md:mt-20 lg:mr-7 lg:mt-0">
+                <img
+                class="lg:m-5 mx-auto w-[90%]"
+                src="media/images/askMassage.svg" alt="">
+            </div>
+            <!--  -->
+            <div class="w-[100%] md:w-[50%]">
+                <!-- Collapse-1 -->
+                <div tabindex="0" class="collapse collapse-arrow rounded-none border mt-5 mb-3">
+                    <div class="collapse-title text-xl font-medium">What are the most important things I should
+                        know about riding a bike?</div>
+                    <div class="collapse-content">
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                    </div>
+                </div>
+                <!-- Collapse-2 -->
+                <div tabindex="0" class="collapse collapse-arrow rounded-none border mb-3">
+                    <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                        new one?</div>
+                    <div class="collapse-content">
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                    </div>
+                </div>
+                <!-- Collapse-3 -->
+                <div tabindex="0" class="collapse collapse-arrow rounded-none border mb-3">
+                    <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                    <div class="collapse-content">
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
+                    </div>
+                </div>
+                <!-- Collapse-4 -->
+                <div tabindex="0" class="collapse collapse-arrow rounded-none border">
+                    <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                    <div class="collapse-content">
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Collapse+img div end -->
 
     </main>
-
-
-
-
+    <!-- main end -->
 
 
     <!-- footer -->
-    <footer class=" mt-[40%]"></footer>
+    <footer class="bg-[#0B0D17] mt-52 w-full font-light manrope">
+        <div class="px-[10%] py-[4%] md:flex">
+            <!-- left area -->
+            <div class="w-[100%] md:w-[50%] text-[#FFFFFF] text-[14px]">
+                <div class="flex">Download Now
+                    <p class="ml-5">License</p>
+                </div>
+                <div class="md:flex lg:w-[60%] my-3">
+                    <p class="mr-5">About</p>
+                    <p class="mr-5">Features</p>
+                    <p class="mr-5">Pricing</p>
+                    <p class="mr-5">Careers</p>
+                    <p class="mr-5">Help</p>
+                    <div class="flex mr-5">
+                        <p>Privacy</p><p class="ml-1">Policy</p>
+                    </div>
+                </div>
+                <div class="text-[#D9DBE1] hidden md:block text-[12px]">© 2020 bike. All rights reserved</div>
+            </div>
+            <!-- right area -->
+            <div class="grid md:justify-items-end w-[100%] md:w-[50%] mt-5 md:mt-0">
+                <div>
+                    <h4 class="text-[18px] text-[#D9DBE1] font-medium mb-2 md:mb-4">Get the App</h4>
+                    <img class="w-[9rem] mb-1 md:mb-3" src="media/icons/android.png" alt="">
+                    <img class="w-[9rem] mb-1 md:mb-3" src="media/icons/ios.png" alt="">
+                </div>
+                
+                <div class="text-[#D9DBE1] block md:hidden text-[12px] mx-auto mt-7">© 2020 bike. All rights reserved</div>
+                
+            </div>
+        </div>
+    </footer>
     <!-- footer end -->
 
 </body>
